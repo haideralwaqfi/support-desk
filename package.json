@@ -1,0 +1,19 @@
+{
+  "name": "support-desk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haideralwaqfi/support-desk.git"
+  },
+  "author": "haider alwaqfi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haideralwaqfi/support-desk/issues"
+  },
+  "homepage": "https://github.com/haideralwaqfi/support-desk#readme"
+}
