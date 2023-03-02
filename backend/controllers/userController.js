@@ -37,7 +37,7 @@ const registerUser = asyncHandler(async (req, res) => {
     });
   } else {
     res.status(400);
-    throw new error("Inavaild user data");
+    throw new error("Invalids user data");
   }
 });
 
@@ -53,7 +53,7 @@ const loginUser = asyncHandler(async (req, res) => {
     });
   } else {
     res.status(400);
-    throw new Error("Invalid Creadintials");
+    throw new Error("Invalid Credentials");
   }
 });
 
